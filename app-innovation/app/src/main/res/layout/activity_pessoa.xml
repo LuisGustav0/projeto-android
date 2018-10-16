@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.PessoaActivity">
+
+    <AbsoluteLayout
+        android:layout_width="357dp"
+        android:layout_height="562dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/txtCodigo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="8dp"
+            android:layout_y="24dp"
+            android:text="Código:"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="28dp" />
+
+        <EditText
+            android:id="@+id/edtCodigo"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:layout_x="61dp"
+            android:layout_y="0dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="63dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+
+        <TextView
+            android:id="@+id/txtNome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="15dp"
+            android:layout_y="73dp"
+            android:text="Nome:"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="64dp" />
+
+        <EditText
+            android:id="@+id/edtNome"
+            android:layout_width="286dp"
+            android:layout_height="wrap_content"
+            android:layout_x="62dp"
+            android:layout_y="52dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:enabled="false"
+            tools:layout_editor_absoluteX="58dp"
+            tools:layout_editor_absoluteY="48dp" />
+
+        <Button
+            android:id="@+id/btnVoltarMainActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="12dp"
+            android:layout_y="445dp"
+            android:text="Voltar"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="8dp" />
+    </AbsoluteLayout>
+
+</android.support.constraint.ConstraintLayout>

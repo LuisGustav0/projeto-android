@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <AbsoluteLayout
+        android:layout_width="357dp"
+        android:layout_height="508dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="2dp">
+
+        <EditText
+            android:id="@+id/edtCodigo"
+            android:layout_width="193dp"
+            android:layout_height="wrap_content"
+            android:layout_x="8dp"
+            android:layout_y="0dp"
+            android:ems="10"
+            android:enabled="false"
+            android:inputType="textPersonName"
+            android:hint="Código"
+            tools:layout_editor_absoluteX="13dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="337dp"
+            android:layout_height="wrap_content"
+            android:layout_x="8dp"
+            android:layout_y="50dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Nome"
+            tools:layout_editor_absoluteX="15dp"
+            tools:layout_editor_absoluteY="46dp">
+            <EditText
+                android:id="@+id/edtNome"
+                android:layout_width="337dp"
+                android:layout_height="wrap_content"
+                android:layout_x="8dp"
+                android:layout_y="50dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Nome"
+                tools:layout_editor_absoluteX="15dp"
+                tools:layout_editor_absoluteY="46dp" />
+        </android.support.design.widget.TextInputLayout>
+
+
+
+        <CheckBox
+            android:id="@+id/checkBoxIsAtivo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="216dp"
+            android:layout_y="8dp"
+            android:text="Ativo?"
+            tools:layout_editor_absoluteX="221dp"
+            tools:layout_editor_absoluteY="14dp" />
+
+        <ListView
+            android:id="@+id/listViewPessoa"
+            android:layout_width="356dp"
+            android:layout_height="197dp"
+            android:layout_x="0dp"
+            android:layout_y="311dp"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="306dp" />
+
+        <Button
+            android:id="@+id/btnSalvar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="8dp"
+            android:layout_y="259dp"
+            android:text="Salvar"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="257dp"
+            style="@style/ButtonSalvar"/>
+
+        <Button
+            android:id="@+id/btnLimpar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="104dp"
+            android:layout_y="259dp"
+            android:text="Limpar"
+            tools:layout_editor_absoluteX="102dp"
+            tools:layout_editor_absoluteY="257dp"
+            style="@style/ButtonLimpar"/>
+
+        <Button
+            android:id="@+id/btnExcluir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="199dp"
+            android:layout_y="259dp"
+            android:text="Excluir"
+            tools:layout_editor_absoluteX="204dp"
+            tools:layout_editor_absoluteY="257dp"
+            style="@style/ButtonExcluir"/>
+
+    </AbsoluteLayout>
+
+</android.support.constraint.ConstraintLayout>
